@@ -1,0 +1,14 @@
+{
+  "name": "skyenest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "skyenest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ryanv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
