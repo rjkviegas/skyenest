@@ -4,6 +4,16 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
+app.get('/', (req, res) => {
+    res.type('text/plain');
+    res.send('Skyenest');
+});
+
+app.get('/about', (req, res) => {
+    res.type('text/plain');
+    res.send('About Skyenest');
+});
+
 app.use('404', (req, res) => {
     res.type('text/plain');
     res.status(404);
